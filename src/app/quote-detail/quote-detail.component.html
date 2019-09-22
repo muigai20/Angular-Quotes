@@ -1,3 +1,5 @@
 <p id="quotes">{{quote.description}}</p>
 <p id="det"> {{quote.submitter}} {{quote.completeDate|dateCount}} days ago</p>
+
 <app-votes></app-votes>
+<button class="btn btn-danger" (click)= 'quoteDelete(true)'>Delete</button>
