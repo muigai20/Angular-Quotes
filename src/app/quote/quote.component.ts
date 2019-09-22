@@ -14,7 +14,7 @@ export class QuoteComponent implements OnInit {
     new Quote(3,'Oscar Wilde','Be yourself; everyone else is already taken','This Quote was submitted by',new Date(2019,6,1)),
     new Quote(4,'Dr.Sus','Do not cry because it is over,smile because it happened.','This Quote was submitted by',new Date(2019,3,23)),
     new Quote(5,'Trevor Noah','Does America really need to the best at everything? You already dominate the world in economics, military power and obesity.','This Quote was submitted by',new Date(2019,1,21)),
-    new Quote(6,'Kevin Hart','I DON’T have EX’s! I have Y’s. Like ‘Y the hell did I date you?!','This Quote was submitted by',new Date(2018,8,6)),
+    new Quote(6,'Kevin Hart','The road is long,but i must finish and I know','This Quote was submitted by',new Date(2018,8,6)),
   ];
   toggleDetails(index){
    this.quotes[index].showDescription = !this.quotes[index].showDescription;
