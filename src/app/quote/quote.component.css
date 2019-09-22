@@ -1,6 +1,11 @@
 
-.container{
-    background-color: darkslategrey
+
+    .container{
+        background-image: url("https://wallpapercave.com/wp/WFDU5Ac.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-color: darkslategrey
     }
     .author{
         color: whitesmoke;
